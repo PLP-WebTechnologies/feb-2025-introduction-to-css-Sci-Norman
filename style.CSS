@@ -1,0 +1,51 @@
+/* Reset some default browser styles for consistency */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main header using an ID selector */
+#main-header {
+    background-color: #333; /* Dark gray background */
+    color: blue; /* White text */
+    padding: 1em;
+    text-align: center;
+    font-family: Arial, sans-serif; /* Different font */
+}
+
+/* Style navigation links */
+#main-header nav ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the links */
+}
+
+#main-header nav ul li {
+    margin: 0 1em; /* Add spacing between links */
+}
+
+#main-header nav ul li a {
+    color: black;
+    text-decoration: none; /* Remove underlines from links */
+}
+
+#main-header nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Style a content section using a class selector */
+.content-section {
+    margin: 2em auto; /* Top/bottom margin, auto left/right for centering */
+    padding: 1.5em;
+    border: 1px solid #8f4b4b; /* Light gray border */
+    max-width: 800px;
+    font-family: Georgia, serif; /* Different font */
+}
+
+/* Style the footer */
+footer {
+    background-color: #992020; /* Light gray background */
+    padding: 1em;
+    text-align: center;
+    border-top: 1px solid #6d6060; /* Add a top border */
+}
